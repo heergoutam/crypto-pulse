@@ -11,8 +11,6 @@ app.get('/', (req, res) => {
   res.send('Hello, world');
 });
 
-// Optional: add backend-only APIs here
-
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
